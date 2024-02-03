@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title=""
+        android:id="@+id/profile_nav"
+        android:icon="@drawable/main"
+        app:showAsAction="ifRoom"
+        app:itemIconSize = "20dp"
+        app:labelVisibilityMode="unlabeled"/>
+
+    <item android:title=""
+        android:icon="@drawable/prod2"
+        android:id="@+id/production_nav"
+        app:showAsAction="ifRoom"
+        app:itemIconSize = "20dp"
+        app:labelVisibilityMode="unlabeled"/>
+
+
+    <item android:title=""
+        android:icon="@drawable/service"
+        android:id="@+id/service_nav"
+        app:showAsAction="ifRoom"
+        app:itemIconSize = "20dp"
+        app:labelVisibilityMode="unlabeled"/>
+
+    <item android:title=""
+        android:icon="@drawable/errors2"
+        android:id="@+id/errors_nav"
+        app:showAsAction="ifRoom"
+        app:itemIconSize = "20dp"
+        app:labelVisibilityMode="unlabeled"/>
+
+
+</menu>

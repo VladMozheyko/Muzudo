@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Mizudo</string>
+    <string name="skip_onboarding">Пропустить</string>
+    <string name="btn_registration">Зарегистрироваться</string>
+    <string name="enter">Войти</string>
+    <string name="first_main_title">Привет! Это мобильный справочник от Mizudo</string>
+    <string name="first_info_title">Для монтажников и сервисных специалистов</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="registration_command">Пожалуйста зарегистрируйтесь, чтобы продолжить</string>
+    <string name="name_surname">Имя и фамилия</string>
+    <string name="edt_checkbox_registration">Я прочитал и согласен с Правилами и условиями, а ткже с политикой кониденциальности</string>
+    <string name="login_txt">Уже есть аккаунт? Войдите</string>
+    <string name="login_command">Пожалуйста, войдите в систему, чтобы продолжить</string>
+    <string name="remember_me">Запомнить меня</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="btn_login">Войти</string>
+    <string name="login_invitation">Еще не аккаунта? Зарегистрируйтесь</string>
+    <string name="login_email">Или войдите в систему с помощью</string>
+    <string name="btn_login_email">Email</string>
+    <string name="btn_login_google">Google</string>
+    <string name="location">Место жительства</string>
+    <string name="email">Адрес электронной почты</string>
+    <string name="password">Пароль</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="main_page">Главная</string>
+    <string name="profile_information">Основная информация</string>
+    <string name="profile_location">Место жительства</string>
+    <string name="profile_phone_number">Номер телефона</string>
+    <string name="profile_email">Электронная почта</string>
+    <string name="txt_change_password">Изменить пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="btn_change">Изменить пароль</string>
+
+    <string name="fill_all_fields">Заполните все поля</string>
+    <string name="title_activity_work">WorkActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="main_label">Главная</string>
+    <string name="boilers">Котлы</string>
+    <string name="geysers">ВПГ</string>
+    <string name="news">Новости</string>
+    <string name="currency">Курс</string>
+    <string name="table">Таблица характеристик</string>
+    <string name="service_label">Сервис</string>
+    <string name="tech_data">Технические данные</string>
+    <string name="repair">Ремонт</string>
+    <string name="service_centers">Сервисные центры</string>
+    <string name="main_profile">Профиль</string>
+    <string name="production">Продукция</string>
+    <string name="hot_line">Телефон горячей линии</string>
+    <string name="messengers">Мессенджеры</string>
+    <string name="sites">Наши сайты</string>
+    <string name="second_registration_command">Подтвердите, что Вы профессионал, чтобы получить доступ к тезнической документации</string>
+    <string name="choose_status">Выберите свой статус</string>
+
+    <string-array name="main_headers">
+        <item>Привет! Это мобильный справочник от Mizudo</item>
+        <item>Новости</item>
+        <item>Быстрый поиск по кодам ошибкок</item>
+        <item>Сервис</item>
+        <item>Библиотека инструкций</item>
+    </string-array>
+
+    <string-array name="second_headers">
+        <item>Для монтажников и сервисных специалистов</item>
+        <item>Раздел содержит свежие новости от компании Mizudo</item>
+        <item>Раздел описывает коды ошибок</item>
+        <item>В этом разделе можно найти адреса сервисных цетров компании Mizudo</item>
+        <item>В этом разделе можно найти информацию по обслуживанию продукции Mizudo</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Монтажник</item>
+        <item>Специалист</item>
+        <item>Сервисный центр</item>
+        <item>Другое</item>
+    </string-array>
+
+
+</resources>

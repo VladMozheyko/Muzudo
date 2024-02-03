@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".GeyserDetailsActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/geyzer_details_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/table"
+            android:textSize="25sp"
+            android:textColor="#2D2B71"/>
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Технические характеристики"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Показатель"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:text="Тип камеры сгорания"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:id="@+id/type"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:text="Модуляция пламени"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:id="@+id/flameModulation"/>
+
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Номинальная тепловая мощность, кВт"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/nominalThermalPower"/>
+
+            </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:text="Теплопроизводительность, кВт"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:id="@+id/heatProductivity"/>
+
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Коэффициент полезного действия, %, не менее"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/efficiency"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Номинальное давление газа, Па (мм вод.ст.): "/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="природного: "/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/naturalGas"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="сжиженного: "/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/liquefiedGas"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Расход природного газа, м³/ч"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/naturalGasConsumption"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Расход сжиженного газа, кг/ч"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/liquefiedGasConsumption"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Давление воды для нормальной работы аппарата, кПа"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/waterPressureForNormalOperation"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Минимальный расход воды, необходимый для зажигания горелки, л/мин"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/minWaterFlowForIgnition"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Расход воды  при нагреве на ∆T = 25°C, л/мин"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/waterFlowOnHeating"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Зажигание"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/ignition"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Тип и напряжение элементов питания, В"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/powerSupply"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Напряжение и частота, В/Гц"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/voltageAndFrequency"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Вход холодной воды"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/coldWaterInlet"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Выход горячей воды"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/hotWaterOutlet"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Вход газа"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/gasInlet"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Брутто аппарата, кг."/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/grossWeight"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Габариты аппарата, мм"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/dimensions"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Размеры трубы дымохода, мм "/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/fluePipeSize"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Внутренний диаметр патрубка дымохода, мм"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:id="@+id/internalDiameterOfFlueNozzle"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

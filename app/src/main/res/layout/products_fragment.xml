@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/prod_background">
+
+    <RelativeLayout
+        android:id="@+id/top_nav"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/round_top_nav_prod">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/main_label"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/main_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:textColor="#2D2B71"
+            android:id="@+id/main_label_text"
+            android:text="@string/production"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/main_label" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/main_top_nav"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#2D2B71"
+                android:text="@string/boilers"
+                android:id="@+id/boilers"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="#2D2B71"
+                android:text="@string/geysers"
+                android:id="@+id/geysers"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="#2D2B71"
+                android:text="@string/currency"
+                android:id="@+id/currency"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/prod_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+
+</LinearLayout>

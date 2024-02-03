@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_above="@id/bottom_navigation"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/footer">
+
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hot_line"
+    android:textSize="20sp"
+    android:textColor="#2D2B71"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="8 800 350 28 18"
+    android:layout_marginTop="30dp"
+    android:textSize="20sp"
+    android:id="@+id/tel_number"
+    android:textColor="#2D2B71"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/messengers"
+    android:layout_marginTop="30dp"
+    android:textSize="20sp"
+    android:id="@+id/messengers"
+    android:textColor="#2D2B71"/>
+
+    <ImageView
+        android:id="@+id/telegram"
+        android:layout_marginTop="30dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/messengers"
+        android:onClick="onClickWork"
+        android:src="@drawable/telegram" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/sites"
+        android:textColor="#2D2B71"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/mizudo_com"
+        android:text="https://mizudo.com/"
+        android:onClick="onClickWork"
+        android:textColor="#2D2B71"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/mizudo_ru"
+        android:text="https://muzudo.ru/"
+        android:onClick="onClickWork"
+        android:textColor="#2D2B71"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="190dp"/>
+
+
+
+</LinearLayout>
